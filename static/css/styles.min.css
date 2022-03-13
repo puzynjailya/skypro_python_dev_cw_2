@@ -264,6 +264,20 @@ textarea {
 	display: block
 }
 
+.header__gls-btn {
+	position: absolute;
+	left: 0;
+	top: 34px;
+	text-decoration: none;
+	display: inline-flex;
+}
+
+.header__gls-icon {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .header__bookmark-icon {
 	display: inline-block;
 	vertical-align: middle
@@ -340,6 +354,14 @@ textarea {
 
 .item__descr {
 	margin-bottom: 2px
+}
+
+.item__descroverflowed {
+	margin-bottom: 2px
+	width: 350px;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
 }
 
 .item__text {
